@@ -1,0 +1,3 @@
+site_common_homepage:
+    pattern:  /
+    defaults: { _controller: SiteCommonBundle:Default:index }
