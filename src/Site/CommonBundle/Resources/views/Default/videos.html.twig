@@ -6,7 +6,7 @@
       </blockquote>
         <div id="newvideo" class="carousel slide">
           <div class="carousel-inner">
-            {% set step = 4 %}
+            {#{% set step = 4 %}
             {% if newvideos|length % step  == 0 %}
               {% set length = newvideos|length / step - 1 %}
             {% else %}
@@ -36,7 +36,7 @@
                   <br>
                 </ul>
               </div>
-            {% endfor %}
+            {% endfor %}#}
           </div>
           <a class="carousel-control left" href="#newvideo" data-slide="prev">&lsaquo;</a>
           <a class="carousel-control right" href="#newvideo" data-slide="next">&rsaquo;</a>
