@@ -17,8 +17,8 @@
                 <ul class="thumbnails">
                   {% set order = nails * step  %}
                   {% for nail in order..order + step - 1 %}
-                    {#{% for video in newvideos %}
-                      {% if nail == loop.index0 %}
+                    {% for video in newvideos %}
+                      {#{% if nail == loop.index0 %}
                         <li class="span3">
                           <div class="thumbnail">
                             {% if video.imgpath is not null %}
@@ -30,8 +30,8 @@
                             <p>{{ video.title }}</p>
                           </div>
                         </li>
-                      {% endif %}
-                    {% endfor %}#}
+                      {% endif %}#}
+                    {% endfor %}
                   {% endfor %}
                   <br>
                 </ul>
