@@ -2,7 +2,7 @@ parameters:
     database_server:   www.geekcoding.net
     database_port:     27017
     database_name:     geekcoding
-    database_user:     root
+    database_username: root
     database_password: ~
 
     mailer_transport:  smtp

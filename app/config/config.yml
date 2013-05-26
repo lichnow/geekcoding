@@ -42,9 +42,9 @@ doctrine_mongodb:
     connections:
         default:
             server: mongodb://%database_server%:%database_port%
-            options: {}
-            username: %database_username%
-            password: %database_password%
+            options: 
+                username: %database_username%
+                password: %database_password%
     default_database: %database_name%
     document_managers:
         default:
