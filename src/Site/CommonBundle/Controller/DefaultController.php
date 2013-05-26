@@ -19,7 +19,7 @@ class DefaultController extends Controller
     {
     	$data = array(
             'newvideos' => $this->get('model')->load('Site:LessonBundle:Video')->getPublicList(12),
-//            'types' => $this->getLessonTypes(),
+            'types' => $this->getLessonTypes(),
 //            'lessons' => $this->get('model')->load('Site:LessonBundle:Lesson')->getList(),
 //            'common' => $this->get('model')->load('Site:CommonBundle:Common')->getShow()
      	);
