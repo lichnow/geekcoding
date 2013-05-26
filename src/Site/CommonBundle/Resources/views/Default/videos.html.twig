@@ -16,23 +16,23 @@
               <div {% if nails == 0 %} class="item active"{% else %} class="item"{% endif %}>
                 <ul class="thumbnails">
                   {% set order = nails * step  %}
-                  {#{% for nail in order..order + step - 1 %}
+                  {% for nail in order..order + step - 1 %}
                     {% for video in newvideos %}
                       {% if nail == loop.index0 %}
                         <li class="span3">
                           <div class="thumbnail">
-                            {% if video.imgpath is not null %}
+                            {#{% if video.imgpath is not null %}
                               <img src="{{ asset(video.imgpath) }}" alt="" style="height:170px;">
                             {% else %}
                               <img src="{{ asset(common.homeimg) }}" alt="" style="height:170px;">
-                            {% endif %}
+                            {% endif %}#}
                             <a class="lightbox" href="#inline" title=""></a>
                             <p>{{ video.title }}</p>
                           </div>
                         </li>
                       {% endif %}
                     {% endfor %}
-                  {% endfor %}#}
+                  {% endfor %}
                   <br>
                 </ul>
               </div>
