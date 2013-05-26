@@ -7,3 +7,4 @@
 /bin/
 /composer.phar
 /nbproject
+/app/config/parameters.yml

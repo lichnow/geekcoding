@@ -1,5 +1,5 @@
 parameters:
-    database_server:   localhost
+    database_server:   www.geekcoding.net
     database_port:     27017
     database_name:     geekcoding
     database_user:     root
