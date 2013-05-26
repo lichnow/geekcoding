@@ -18,10 +18,10 @@ class DefaultController extends Controller
     public function indexAction()
     {
     	$data = array(
-            'newvideos' => $this->get('model')->load('Site:LessonBundle:Video')->getPublicList(12),
-            'types' => $this->getLessonTypes(),
-            'lessons' => $this->get('model')->load('Site:LessonBundle:Lesson')->getList(),
-            'common' => $this->get('model')->load('Site:CommonBundle:Common')->getShow()
+//            'newvideos' => $this->get('model')->load('Site:LessonBundle:Video')->getPublicList(12),
+//            'types' => $this->getLessonTypes(),
+//            'lessons' => $this->get('model')->load('Site:LessonBundle:Lesson')->getList(),
+//            'common' => $this->get('model')->load('Site:CommonBundle:Common')->getShow()
      	);
         return $this->render('SiteCommonBundle:Default:index.html.twig',$data);
     }
