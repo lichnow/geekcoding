@@ -27,6 +27,10 @@ class Video extends \Hmvc\Model
     	$publicvideos = $this->rp->findByPublic($limit);
     	return $publicvideos;
     }
+    public function getPublicOne($id)
+    {
+        return $this->rp->findOneBy(array('id' => $id,'public' => true));
+    }
 
 }
 

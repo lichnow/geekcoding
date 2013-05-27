@@ -18,7 +18,7 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'title' => 'Symfony2安装及环境搭建',
                 'order' => 0,
                 'playtimes' => 0,
-                'downpath' => 'uploads/videos/home/homeimg.mp4',
+                'downpath' => 'uploads/videos/home/homevideo.mov',
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()
@@ -27,7 +27,7 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'title' => 'Rails3安装及环境搭建',
                 'order' => 0,
                 'playtimes' => 0,
-                'downpath' => 'uploads/videos/home/homeimg.mp4',
+                'downpath' => 'uploads/videos/home/homevideo.mov',
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()
@@ -36,7 +36,7 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'title' => 'Silex安装及环境搭建',
                 'order' => 0,
                 'playtimes' => 0,
-                'downpath' => 'uploads/videos/home/homeimg.mp4',
+                'downpath' => 'uploads/videos/home/homevideo.mov',
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()
@@ -45,7 +45,7 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'title' => 'Bootstrap使用初步',
                 'order' => 0,
                 'playtimes' => 0,
-                'downpath' => 'uploads/videos/home/homeimg.mp4',
+                'downpath' => 'uploads/videos/home/homevideo.mov',
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()
@@ -54,7 +54,7 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'title' => 'Nginx+PHP+Rails服务器搭建',
                 'order' => 0,
                 'playtimes' => 0,
-                'downpath' => 'uploads/videos/home/homeimg.mp4',
+                'downpath' => 'uploads/videos/home/homevideo.mov',
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()

@@ -28,10 +28,11 @@ class DefaultController extends Controller
 
     public function newVideoAction(Request $request)
     {
-        if($request->isXmlHttpRequest() && $request->query->get('id'))
+        if($request->query->get('id'))
         {
             $id = $request->query->get('id');
-            $videos = $this->get('model')->load('SiteCommonBundle:Video')->getPublicOne($id);
+            $data['video'] = $this->get('model')->load('Site:LessonBundle:Video')->getPublicOne($id);
+            return $this->render('SiteCommonBundle:Default:newvideo.html.twig',$data);
         }
     }
     /**
