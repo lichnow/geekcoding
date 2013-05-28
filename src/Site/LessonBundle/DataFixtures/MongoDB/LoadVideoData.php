@@ -58,6 +58,60 @@ class LoadVideoData extends AbstractFixture implements OrderedFixtureInterface
                 'imgpath' => 'uploads/videos/home/homeimg.jpg',
                 'public' => true,
                 'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => 'Symfony2架构详解',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => 'Zend Framework2入手',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => '各种PHP优化程序',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => 'Foundation框架使用初步',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => 'Bootstrap中使用LESS设计',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
+            ),
+            array(
+                'title' => 'Syfomy2+Mongodb实现',
+                'order' => 0,
+                'playtimes' => 0,
+                'downpath' => 'uploads/videos/home/homevideo.mov',
+                'imgpath' => 'uploads/videos/home/homeimg.jpg',
+                'public' => true,
+                'ctime' => new \DateTime()
             )
         );
         $this->insertData($manager,$videos);
